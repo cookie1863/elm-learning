@@ -42,8 +42,8 @@ update msg model =
 
         Decrement ->
             if not model.allowNegatives && model.counter == initialModel.counter then
-                initialModel
-
+                { model | counter = initialModel.counter }
+            
             else
                 { model | counter = model.counter - 1 }
 
