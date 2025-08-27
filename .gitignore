@@ -1,0 +1,13 @@
+# Elm stuff
+elm-stuff/
+build/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
