@@ -3,7 +3,7 @@ module Main exposing (main)
 import Browser
 import View exposing (view )
 import Model exposing (Model, initialModel)
-import UpdateTest exposing (Msg(..), update)
+import Update exposing (Msg(..), update)
 
 
 

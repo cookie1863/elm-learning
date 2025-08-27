@@ -5,7 +5,7 @@ import Html.Attributes exposing (checked, style, type_)
 import Html.Events exposing (onCheck, onClick)
 
 import Model exposing (Model)
-import UpdateTest exposing (Msg(..))
+import Update exposing (Msg(..))
 
 
 containerStyles : List (Html.Attribute msg)
